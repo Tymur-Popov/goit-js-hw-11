@@ -21,11 +21,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   close: false,
 });
 
-const scroll = new OnlyScroll(document.scrollingElement, {
-  damping: 0.8,
-  eventContainer: window,
-});
-
 form.addEventListener('submit', onSubmit);
 
 loadMore.addEventListener('click', onClick);
@@ -146,3 +141,8 @@ function onClick(e) {
     });
   });
 }
+
+const scroll = new OnlyScroll(document.scrollingElement, {
+  damping: 0.5,
+  eventContainer: window,
+});
