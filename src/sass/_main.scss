@@ -1,22 +1,22 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: FontAwesome, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#dcdcdc;
+  background-color: #dcdcdc;
 
   line-height: 1.5;
 }
 
 img {
-   display: block;
-   width: 100%;
-   height: 175px;
-   object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
 }
 
-.header{
-  background-color: #6A5ACD;
+.header {
+  background-color: #6a5acd;
   z-index: 9;
   position: fixed;
   top: 0;
@@ -26,11 +26,9 @@ img {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 20px 4px #144d98;
-
 }
 
-
-.gallery{
+.gallery {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 60px;
@@ -39,7 +37,7 @@ img {
   justify-content: center;
 }
 
-.photo-card{
+.photo-card {
   width: 260px;
   height: 227px;
   margin: 10px;
@@ -71,10 +69,10 @@ img {
 }
 
 .text {
-  font-size: 14px;
+  font-size: 13px;
 }
 
-.property{
+.property {
   font-weight: bold;
 }
 
@@ -95,15 +93,15 @@ img {
   overflow: hidden;
 }
 
-.load-more{
+.load-more {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
   height: 50px;
   width: 150px;
-  background-color:#6a5acd;
-  color:white;
+  background-color: #6a5acd;
+  color: white;
   border-radius: 25px;
   font-size: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -112,12 +110,12 @@ img {
   padding-bottom: 5px;
 }
 
-.load-more:active{
+.load-more:active {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
-.load-more:hover{
-background-color: #5947c7;
+.load-more:hover {
+  background-color: #5947c7;
 }
 /* кастомный поисковик */
 form {
@@ -134,7 +132,7 @@ input {
   border-radius: 5px;
   outline: none;
   background: white;
-  color: #9E9C9C;
+  color: #9e9c9c;
 }
 
 .submit {
@@ -144,15 +142,14 @@ input {
   width: 42px;
   height: 42px;
   border: none;
-  background:#dcdcdc;
+  background: #dcdcdc;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 
   &:before {
-    content: "\f002";
+    content: '\f002';
     font-family: FontAwesome;
     font-size: 16px;
     color: #5947c7;
   }
 }
-
