@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './css/styles.css';
+import './sass/index.scss';
 import Notiflix from 'notiflix';
 const axios = require('axios');
 import OnlyScroll from 'only-scrollbar';
